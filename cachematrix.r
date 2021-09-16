@@ -25,7 +25,6 @@ cacheSolve <- function(x, ...) {
 }
 B <- matrix(c(1,2,3,4),2,2)
 B1 <- makeCacheMatrix(B)
-B1
 cacheSolve(B1)
-B1$getinverse()
+
 
